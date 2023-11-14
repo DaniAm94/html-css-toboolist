@@ -2,7 +2,6 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
 
 /* Generics */
@@ -20,6 +19,30 @@ body {
 
 .bg-white {
     background-color: white;
+}
+
+.bg-blue {
+    background-color: rgb(68, 172, 234);
+}
+
+.bg-purple {
+    background-color: rgb(157, 114, 228);
+}
+
+.bg-turquoise {
+    background-color: rgb(100, 192, 169);
+}
+
+.bg-orange {
+    background-color: rgb(226 162 61);
+}
+
+.bg-pink {
+    background-color: rgb(198 108 160);
+}
+
+.bg-olive {
+    background-color: rgb(181 199 56);
 }
 
 /* Header */
@@ -47,6 +70,7 @@ h1 {
     padding: 20px 40px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    margin-bottom: 2px;
 }
 
 button {
@@ -56,14 +80,76 @@ button {
     margin-right: 5px;
 }
 
-.task-button {
+#task-button {
     color: white;
     background-color: rgb(29, 144, 255);
     border: none;
 }
 
-.section-button {
+#section-button {
     color: rgb(163, 148, 149);
     border-color: rgb(163, 148, 149);
     border: 1px solid rgb(163, 148, 149);
+}
+
+/* List Section */
+
+.central-body {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+ul {
+    list-style-position: inside;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+li::marker {
+    margin: 0;
+}
+
+li {
+    padding: 20px 0;
+}
+
+.secondary-list {
+    list-style-type: none;
+    font-weight: 400;
+    padding-left: 0;
+    vertical-align: middle;
+
+}
+
+.checked {
+    margin-right: 10px;
+    font-size: 20px;
+    color: rgb(17, 135, 16);
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    border: 2px solid rgb(17, 135, 16);
+}
+
+.crossed {
+    margin-right: 10px;
+    font-size: 20px;
+    color: rgb(228 60 20);
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    border: 2px solid rgb(228 60 20);
+}
+
+.label {
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+    padding: 12px;
 }
