@@ -4,3 +4,28 @@
     margin: 0;
     padding: 0;
 }
+
+/* Generics */
+body {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+header {
+    padding: 20px 40px;
+    background-color: white;
+}
+
+h1 {
+    display: inline;
+    font-size: 95px;
+    vertical-align: middle;
+    font-weight: 800;
+}
+
+#logo {
+    height: 110px;
+    vertical-align: middle;
+}
