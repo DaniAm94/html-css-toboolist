@@ -100,7 +100,7 @@ button {
 }
 
 ul {
-    list-style-position: inside;
+    list-style-type: none;
     font-size: 34px;
     font-weight: 700;
 }
